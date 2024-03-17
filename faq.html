@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="meny.css">
+    <title>FAQ</title>
+
+</head>
+
+
+<style>
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 50px auto; 
+}
+
+.question {
+    background-color: #a5aeb8;
+    color: #fff; 
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.answer {
+    background-color: #fff; 
+    padding: 10px 20px; 
+    display: none; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.visible {
+    display: block; 
+}
+
+</style>
+<body>
+    <div class="faq-container">
+        <div class="question">Q:hvilken betalingmetode bruker dere?</div>
+        <div class="answer">A: du kan betale med kort og kredittkort og eller med vipps og over nett.</div>
+
+        <div class="question">Q: hvor lenge er varen utsolgt?</div>
+        <div class="answer">A: Ta kontakt med vårt kundestøtteteam for å få hjelp med returer.</div>
+        
+        <div class="question">Q: shipper dere?</div>
+        <div class="answer">A: ja.</div>
+
+        <div class="question">Q: skal dere få de varene senere?</div>
+        <div class="answer">A: ja</div>
+
+        <div class="question">Q: hvem er sjefen her?</div>
+            <div class="answer">A: Jeg.</div>
+
+            <div class="question">Q: kan jeg snakke med sjefen din??</div>
+            <div class="answer">A: du snakker med han</div>
+
+            <div class="container">
+                <a href="terms of service.html" target="_blank">Terms of Service</a>
+                <a href="faq.html" target="_blank">FAQ</a>
+                
+                
+                <nav>
+                    <ul>
+                        <li><a href="3.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+         </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.question');
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('visible');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+li:last-child {
+    margin-right: 0;
+}
+a {
+    text-decoration: none;
+    color: #adbbb1;
+    font-size: 18px;
+}
+a:hover {
+    color: #aaa;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+input[type="email"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+    li:last-child {
+        margin-right: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #adbbb1;
+        font-size: 18px;
+    }
+    a:hover {
+        color: #aaa;
+    }
